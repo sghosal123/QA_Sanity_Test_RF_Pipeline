@@ -10,19 +10,15 @@ ${title}         Addressbook
 
 *** Test Cases ***
 Sanity Test Case For Address Book With GC
+    Documentation   This is the test case for GC
     open browser        ${url}      ${browser1}
     maximize browser window
     title should be     ${title}
     close browser
 
 Sanity Test Case For Address Book With FF
+    Documentation   This is the test case for FF
     open browser        ${url}      ${browser1}
     maximize browser window
     title should be     ${title}
     close browser
-
-
-
-
-
-
