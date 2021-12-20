@@ -5,7 +5,7 @@ Library             SeleniumLibrary
 *** Variables ***
 ${browser1}      headlesschrome
 ${browser2}      headlessfirefox
-${url}           http://65.2.79.70:4446/addressbook/
+${url}           http://35.154.34.14:4446/addressbook/
 ${title}         Addressbook
 
 *** Test Cases ***
