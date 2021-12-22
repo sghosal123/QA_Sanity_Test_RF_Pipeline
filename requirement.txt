@@ -9,4 +9,3 @@ robotframework-seleniumlibrary==5.1.3
 robotframework-stacktrace==0.4.1
 robotframework-lint
 selenium==4.1.0
-webdrivermanager
