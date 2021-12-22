@@ -7,8 +7,8 @@ ${browser1}                 headlesschrome
 ${browser2}                 headlessfirefox
 ${url}                      http://15.206.178.254:4446/addressbook/
 ${title}                    Addressbook
-${executable_path1}         /usr/local/bin/chromedriver
-${executable_path2}         /usr/local/bin/geckodriver
+${executable_path1}         /usr/local/share/WebDriverManager/chrome/96.0.4664.45/chromedriver_linux64#/chromedriver
+${executable_path2}         /usr/local/share/WebDriverManager/gecko/v0.30.0/geckodriver-v0.30.0-linux64#/geckodriver
 
 *** Test Cases ***
 Sanity Test Case For Address Book With GC
