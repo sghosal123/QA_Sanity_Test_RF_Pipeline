@@ -5,7 +5,7 @@ Library             SeleniumLibrary
 *** Variables ***
 ${browser1}                 headlesschrome
 ${browser2}                 headlessfirefox
-${url}                      http://3.111.42.8:4446/addressbook/
+${url}                      http://3.110.191.223:4446/addressbook/
 ${title}                    Addressbook
 ${executable_path1}         /usr/bin/chromedriver
 ${executable_path2}         /usr/bin/geckodriver
