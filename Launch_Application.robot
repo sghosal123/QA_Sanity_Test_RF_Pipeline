@@ -13,14 +13,12 @@ ${executable_path2}         /usr/bin/geckodriver
 *** Test Cases ***
 Sanity Test Case For Address Book With GC
     open browser        ${url}      ${browser1}         executable_path=${executable_path1}
-    #open browser           ${url}       ${browser1}
     maximize browser window
     title should be     ${title}
     close browser
 
 Sanity Test Case For Address Book With FF
     open browser        ${url}      ${browser2}         executable_path=${executable_path2}
-    #open browser        ${url}          ${browser2}
     maximize browser window
     title should be     ${title}
     close browser
