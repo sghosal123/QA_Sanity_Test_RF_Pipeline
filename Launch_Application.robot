@@ -5,10 +5,10 @@ Library             SeleniumLibrary
 *** Variables ***
 ${browser1}                 headlesschrome
 ${browser2}                 headlessfirefox
-${url}                      http://15.206.178.254:4446/addressbook/
+${url}                      http://3.111.42.8:4446/addressbook/
 ${title}                    Addressbook
-${executable_path1}         /usr/local/share/WebDriverManager/chrome/96.0.4664.45/chromedriver_linux64#/chromedriver
-${executable_path2}         /usr/local/share/WebDriverManager/gecko/v0.30.0/geckodriver-v0.30.0-linux64#/geckodriver
+${executable_path1}         /usr/bin/chromedriver
+${executable_path2}         /usr/bin/geckodriver
 
 *** Test Cases ***
 Sanity Test Case For Address Book With GC
